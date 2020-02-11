@@ -1,0 +1,15 @@
+{
+  "containers": [
+    {
+      "name": "dev",
+      "image": "kikstart/kikstart:latest",
+      "port": 4200,
+      "cmd": [
+        "init",
+        "-s",
+        "-x",
+        "dev"
+      ]
+    }
+  ]
+}
